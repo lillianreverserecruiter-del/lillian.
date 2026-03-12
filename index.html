@@ -1,0 +1,4592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lillian D. Correia - Nurse Career Strategist and Reverse Recruiter helping RNs, APRNs, and Travel Nurses land higher paying travel contracts, remote roles, and NP positions.">
+    <meta name="keywords" content="nurse career strategist, reverse recruiter for nurses, travel nursing jobs, RN career coach, APRN placement, NP jobs, remote nursing roles, nurse job search help">
+    <meta name="author" content="Lillian D. Correia">
+    <title>Lillian D. Correia | Nurse Career Strategist & Reverse Recruiter | Land Higher Paying Nursing Roles</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <style>
+        /* ============================================
+           CSS VARIABLES - NURSE/HEALTHCARE THEME
+        ============================================ */
+        :root {
+            --primary: #0d9488;
+            --primary-light: #14b8a6;
+            --primary-dark: #0f766e;
+            --primary-darker: #115e59;
+            --secondary: #f59e0b;
+            --secondary-light: #fbbf24;
+            --secondary-dark: #d97706;
+            --accent: #6366f1;
+            --accent-light: #818cf8;
+            --success: #10b981;
+            --success-light: #34d399;
+            --warning: #f97316;
+            --danger: #ef4444;
+            --navy: #0f172a;
+            --navy-light: #1e293b;
+            --text-dark: #0f172a;
+            --text-medium: #475569;
+            --text-light: #64748b;
+            --text-lighter: #94a3b8;
+            --white: #ffffff;
+            --off-white: #f8fafc;
+            --gray-50: #f8fafc;
+            --gray-100: #f1f5f9;
+            --gray-200: #e2e8f0;
+            --gray-300: #cbd5e1;
+            --gradient-primary: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            --gradient-secondary: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-dark) 100%);
+            --gradient-hero: linear-gradient(135deg, var(--primary-darker) 0%, var(--navy) 50%, #020617 100%);
+            --gradient-card: linear-gradient(135deg, rgba(13, 148, 136, 0.05) 0%, rgba(99, 102, 241, 0.05) 100%);
+            --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            --shadow-glow: 0 0 40px rgba(13, 148, 136, 0.3);
+            --shadow-glow-secondary: 0 0 40px rgba(245, 158, 11, 0.3);
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+            --radius-2xl: 32px;
+            --radius-full: 9999px;
+            --transition-fast: 0.15s ease;
+            --transition-normal: 0.3s ease;
+            --transition-slow: 0.5s ease;
+            --transition-bounce: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            --font-primary: 'Poppins', sans-serif;
+            --font-secondary: 'Inter', sans-serif;
+        }
+
+        /* ============================================
+           RESET AND BASE STYLES
+        ============================================ */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: var(--font-secondary);
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--text-medium);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+
+        body.no-scroll {
+            overflow: hidden;
+        }
+
+        ::selection {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-primary);
+            font-weight: 700;
+            color: var(--text-dark);
+            line-height: 1.25;
+            margin-bottom: 1rem;
+        }
+
+        h1 { font-size: clamp(2.25rem, 5vw, 3.75rem); font-weight: 800; }
+        h2 { font-size: clamp(1.875rem, 4vw, 3rem); font-weight: 700; }
+        h3 { font-size: clamp(1.25rem, 2.5vw, 1.75rem); font-weight: 600; }
+        h4 { font-size: 1.25rem; font-weight: 600; }
+        h5 { font-size: 1.125rem; font-weight: 600; }
+        h6 { font-size: 1rem; font-weight: 600; }
+
+        p { margin-bottom: 1rem; }
+        p:last-child { margin-bottom: 0; }
+
+        a {
+            text-decoration: none;
+            color: var(--primary);
+            transition: var(--transition-normal);
+        }
+
+        a:hover { color: var(--primary-dark); }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        ul, ol { list-style: none; }
+
+        button {
+            cursor: pointer;
+            font-family: inherit;
+            border: none;
+            outline: none;
+            background: none;
+        }
+
+        input, textarea, select {
+            font-family: inherit;
+            font-size: inherit;
+            outline: none;
+        }
+
+        /* ============================================
+           UTILITY CLASSES
+        ============================================ */
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section {
+            padding: 120px 0;
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 80px;
+        }
+
+        .section-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gradient-card);
+            border: 1px solid rgba(13, 148, 136, 0.2);
+            padding: 8px 20px;
+            border-radius: var(--radius-full);
+            font-family: var(--font-primary);
+            font-size: 0.8125rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .section-badge i {
+            font-size: 0.875rem;
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 4vw, 2.75rem);
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--text-dark) 0%, var(--primary-dark) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-description {
+            font-size: 1.125rem;
+            color: var(--text-medium);
+            line-height: 1.8;
+        }
+
+        .highlight {
+            color: var(--primary);
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .highlight-secondary {
+            color: var(--secondary);
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .bg-white { background-color: var(--white); }
+        .bg-light { background-color: var(--gray-50); }
+        .bg-gray { background-color: var(--gray-100); }
+
+        /* ============================================
+           PRELOADER - PREMIUM DESIGN
+        ============================================ */
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--gradient-hero);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 99999;
+            transition: opacity 0.6s ease, visibility 0.6s ease;
+        }
+
+        .preloader.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .preloader-content {
+            text-align: center;
+            position: relative;
+        }
+
+        .preloader-logo-wrapper {
+            position: relative;
+            width: 140px;
+            height: 140px;
+            margin: 0 auto 35px;
+        }
+
+        .preloader-logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 4px solid var(--secondary);
+            box-shadow: var(--shadow-glow-secondary);
+            z-index: 2;
+        }
+
+        .preloader-ring {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 3px solid transparent;
+            border-top-color: var(--primary);
+            border-right-color: var(--primary-light);
+            border-radius: 50%;
+            animation: preloaderSpin 1.2s linear infinite;
+        }
+
+        .preloader-ring:nth-child(2) {
+            width: 90%;
+            height: 90%;
+            top: 5%;
+            left: 5%;
+            border-top-color: var(--secondary);
+            border-right-color: var(--secondary-light);
+            animation-duration: 1.5s;
+            animation-direction: reverse;
+        }
+
+        @keyframes preloaderSpin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .preloader-text {
+            color: var(--white);
+            font-family: var(--font-primary);
+            font-size: 1.125rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            opacity: 0.9;
+        }
+
+        .preloader-subtext {
+            color: var(--secondary);
+            font-size: 0.875rem;
+            margin-top: 8px;
+            letter-spacing: 1px;
+        }
+
+        /* ============================================
+           NAVIGATION - GLASSMORPHISM DESIGN
+        ============================================ */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 20px 0;
+            transition: var(--transition-normal);
+        }
+
+        .navbar.scrolled {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            box-shadow: var(--shadow-lg);
+            padding: 12px 0;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            z-index: 1001;
+        }
+
+        .navbar-brand-logo {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--secondary);
+            box-shadow: var(--shadow-md);
+            transition: var(--transition-normal);
+        }
+
+        .navbar-brand:hover .navbar-brand-logo {
+            transform: scale(1.05);
+            box-shadow: var(--shadow-glow-secondary);
+        }
+
+        .navbar-brand-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar-brand-name {
+            font-family: var(--font-primary);
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: var(--white);
+            line-height: 1.2;
+            transition: var(--transition-normal);
+        }
+
+        .navbar.scrolled .navbar-brand-name {
+            color: var(--text-dark);
+        }
+
+        .navbar-brand-title {
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--secondary);
+            letter-spacing: 0.5px;
+        }
+
+        .navbar-menu {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .navbar-link {
+            font-family: var(--font-primary);
+            font-size: 0.9375rem;
+            font-weight: 500;
+            color: var(--white);
+            position: relative;
+            padding: 8px 0;
+            transition: var(--transition-normal);
+        }
+
+        .navbar.scrolled .navbar-link {
+            color: var(--text-dark);
+        }
+
+        .navbar-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gradient-secondary);
+            border-radius: 2px;
+            transition: var(--transition-normal);
+        }
+
+        .navbar-link:hover {
+            color: var(--secondary);
+        }
+
+        .navbar-link:hover::after {
+            width: 100%;
+        }
+
+        .navbar-cta {
+            background: var(--gradient-secondary);
+            color: var(--white) !important;
+            padding: 12px 28px;
+            border-radius: var(--radius-full);
+            font-weight: 600;
+            box-shadow: 0 4px 20px rgba(245, 158, 11, 0.4);
+            transition: var(--transition-normal);
+        }
+
+        .navbar-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(245, 158, 11, 0.5);
+            color: var(--white) !important;
+        }
+
+        .navbar-cta::after {
+            display: none;
+        }
+
+        .navbar-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            padding: 8px;
+            z-index: 1001;
+        }
+
+        .navbar-toggle span {
+            width: 28px;
+            height: 3px;
+            background-color: var(--white);
+            border-radius: 3px;
+            transition: var(--transition-normal);
+        }
+
+        .navbar.scrolled .navbar-toggle span {
+            background-color: var(--text-dark);
+        }
+
+        .navbar-toggle.active span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+
+        .navbar-toggle.active span:nth-child(2) {
+            opacity: 0;
+            transform: translateX(-10px);
+        }
+
+        .navbar-toggle.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+
+        /* ============================================
+           BUTTONS - PREMIUM STYLES
+        ============================================ */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 16px 36px;
+            font-family: var(--font-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: var(--radius-full);
+            transition: var(--transition-normal);
+            cursor: pointer;
+            border: none;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: var(--transition-slow);
+        }
+
+        .btn:hover::before {
+            left: 100%;
+        }
+
+        .btn-primary {
+            background: var(--gradient-secondary);
+            color: var(--white);
+            box-shadow: 0 4px 20px rgba(245, 158, 11, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(245, 158, 11, 0.5);
+            color: var(--white);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .btn-secondary:hover {
+            background: var(--white);
+            color: var(--primary-dark);
+            border-color: var(--white);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-outline:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .btn-teal {
+            background: var(--gradient-primary);
+            color: var(--white);
+            box-shadow: 0 4px 20px rgba(13, 148, 136, 0.4);
+        }
+
+        .btn-teal:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(13, 148, 136, 0.5);
+            color: var(--white);
+        }
+
+        .btn-large {
+            padding: 20px 48px;
+            font-size: 1.0625rem;
+        }
+
+        .btn-icon {
+            font-size: 1.1em;
+        }
+
+        /* ============================================
+           HERO SECTION - NURSE THEME
+        ============================================ */
+        .hero {
+            min-height: 100vh;
+            background: var(--gradient-hero);
+            position: relative;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .hero-bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 80%, rgba(13, 148, 136, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(245, 158, 11, 0.08) 0%, transparent 40%);
+            pointer-events: none;
+        }
+
+        .hero-particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .hero-particle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: floatParticle 20s infinite linear;
+        }
+
+        .hero-particle:nth-child(1) { left: 10%; top: 20%; animation-delay: 0s; animation-duration: 25s; }
+        .hero-particle:nth-child(2) { left: 20%; top: 60%; animation-delay: 2s; animation-duration: 20s; }
+        .hero-particle:nth-child(3) { left: 35%; top: 30%; animation-delay: 4s; animation-duration: 28s; }
+        .hero-particle:nth-child(4) { left: 50%; top: 70%; animation-delay: 1s; animation-duration: 22s; }
+        .hero-particle:nth-child(5) { left: 65%; top: 40%; animation-delay: 3s; animation-duration: 26s; }
+        .hero-particle:nth-child(6) { left: 80%; top: 80%; animation-delay: 5s; animation-duration: 24s; }
+        .hero-particle:nth-child(7) { left: 90%; top: 25%; animation-delay: 2.5s; animation-duration: 21s; }
+        .hero-particle:nth-child(8) { left: 5%; top: 85%; animation-delay: 1.5s; animation-duration: 27s; }
+
+        @keyframes floatParticle {
+            0%, 100% {
+                transform: translateY(0) translateX(0);
+                opacity: 0;
+            }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% {
+                transform: translateY(-100vh) translateX(50px);
+                opacity: 0;
+            }
+        }
+
+        .hero-gradient-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            pointer-events: none;
+        }
+
+        .hero-orb-1 {
+            width: 500px;
+            height: 500px;
+            background: rgba(13, 148, 136, 0.2);
+            top: -200px;
+            right: -100px;
+            animation: orbFloat 8s ease-in-out infinite;
+        }
+
+        .hero-orb-2 {
+            width: 400px;
+            height: 400px;
+            background: rgba(99, 102, 241, 0.15);
+            bottom: -150px;
+            left: -100px;
+            animation: orbFloat 10s ease-in-out infinite reverse;
+        }
+
+        .hero-orb-3 {
+            width: 300px;
+            height: 300px;
+            background: rgba(245, 158, 11, 0.1);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: orbPulse 6s ease-in-out infinite;
+        }
+
+        @keyframes orbFloat {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(30px, -30px); }
+        }
+
+        @keyframes orbPulse {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.1; }
+            50% { transform: translate(-50%, -50%) scale(1.2); opacity: 0.15; }
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 250px;
+            background: linear-gradient(to top, var(--white) 0%, transparent 100%);
+            pointer-events: none;
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 10;
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 80px;
+            align-items: center;
+            padding-top: 120px;
+            padding-bottom: 80px;
+        }
+
+        .hero-content {
+            color: var(--white);
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(245, 158, 11, 0.15);
+            border: 1px solid rgba(245, 158, 11, 0.4);
+            padding: 10px 24px;
+            border-radius: var(--radius-full);
+            font-family: var(--font-primary);
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 28px;
+            animation: fadeSlideUp 0.8s ease forwards;
+            opacity: 0;
+        }
+
+        .hero-badge i {
+            font-size: 1rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .hero-title {
+            font-size: clamp(2.5rem, 5vw, 3.75rem);
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 28px;
+            color: var(--white);
+            animation: fadeSlideUp 0.8s ease 0.15s forwards;
+            opacity: 0;
+        }
+
+        .hero-title .highlight {
+            display: block;
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-description {
+            font-size: 1.1875rem;
+            line-height: 1.85;
+            margin-bottom: 40px;
+            color: rgba(255, 255, 255, 0.85);
+            max-width: 580px;
+            animation: fadeSlideUp 0.8s ease 0.3s forwards;
+            opacity: 0;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 60px;
+            animation: fadeSlideUp 0.8s ease 0.45s forwards;
+            opacity: 0;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 50px;
+            animation: fadeSlideUp 0.8s ease 0.6s forwards;
+            opacity: 0;
+        }
+
+        .hero-stat {
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-stat::after {
+            content: '';
+            position: absolute;
+            right: -25px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 1px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .hero-stat:last-child::after {
+            display: none;
+        }
+
+        .hero-stat-number {
+            font-family: var(--font-primary);
+            font-size: 2.25rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: block;
+            line-height: 1.2;
+        }
+
+        .hero-stat-label {
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        @keyframes fadeSlideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-visual {
+            position: relative;
+            animation: fadeSlideLeft 1s ease 0.4s forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeSlideLeft {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .hero-image-wrapper {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-image-main {
+            width: 100%;
+            max-width: 480px;
+            border-radius: var(--radius-2xl);
+            box-shadow: var(--shadow-2xl), var(--shadow-glow);
+            border: 6px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-image-decoration {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 25px;
+            left: 25px;
+            border: 4px solid var(--secondary);
+            border-radius: var(--radius-2xl);
+            z-index: 1;
+            opacity: 0.6;
+        }
+
+        .hero-image-glow {
+            position: absolute;
+            width: 120%;
+            height: 120%;
+            top: -10%;
+            left: -10%;
+            background: radial-gradient(circle, rgba(13, 148, 136, 0.3) 0%, transparent 70%);
+            z-index: 0;
+            filter: blur(40px);
+        }
+
+        .hero-floating-card {
+            position: absolute;
+            background: var(--white);
+            padding: 20px 28px;
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-xl);
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            z-index: 10;
+            border: 1px solid var(--gray-100);
+        }
+
+        .hero-floating-card.card-1 {
+            top: 15%;
+            right: -30px;
+            animation: floatCard 4s ease-in-out infinite;
+        }
+
+        .hero-floating-card.card-2 {
+            bottom: 20%;
+            left: -30px;
+            animation: floatCard 4s ease-in-out infinite 2s;
+        }
+
+        @keyframes floatCard {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        .hero-card-icon {
+            width: 54px;
+            height: 54px;
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.375rem;
+        }
+
+        .hero-card-icon.success {
+            background: rgba(16, 185, 129, 0.12);
+            color: var(--success);
+        }
+
+        .hero-card-icon.gold {
+            background: rgba(245, 158, 11, 0.12);
+            color: var(--secondary);
+        }
+
+        .hero-card-content h4 {
+            font-size: 0.9375rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 2px;
+        }
+
+        .hero-card-content p {
+            font-size: 0.8125rem;
+            color: var(--text-light);
+            margin: 0;
+        }
+
+        .hero-scroll-indicator {
+            position: absolute;
+            bottom: 120px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 20;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            color: var(--white);
+            opacity: 0.8;
+            animation: bounce 2s infinite;
+        }
+
+        .hero-scroll-indicator span {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 500;
+        }
+
+        .hero-scroll-indicator i {
+            font-size: 1.5rem;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+            40% { transform: translateX(-50%) translateY(-12px); }
+            60% { transform: translateX(-50%) translateY(-6px); }
+        }
+
+        /* ============================================
+           TRUST SECTION
+        ============================================ */
+        .trust-section {
+            padding: 70px 0;
+            background: var(--gray-50);
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .trust-content {
+            text-align: center;
+        }
+
+        .trust-title {
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-light);
+            margin-bottom: 35px;
+        }
+
+        .trust-badges {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 28px;
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--gray-200);
+            transition: var(--transition-normal);
+        }
+
+        .trust-badge:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+        }
+
+        .trust-badge i {
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+
+        .trust-badge span {
+            font-family: var(--font-primary);
+            font-weight: 600;
+            font-size: 0.9375rem;
+            color: var(--text-dark);
+        }
+
+        /* ============================================
+           WHO I WORK WITH INTRO SECTION
+        ============================================ */
+        .who-intro-section {
+            padding: 80px 0;
+            background: var(--white);
+        }
+
+        .who-intro-content {
+            max-width: 850px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .who-intro-content .section-badge {
+            background: rgba(245, 158, 11, 0.1);
+            border-color: rgba(245, 158, 11, 0.3);
+            color: var(--secondary-dark);
+        }
+
+        .who-intro-content h2 {
+            font-size: 2.25rem;
+            margin-bottom: 25px;
+            color: var(--text-dark);
+        }
+
+        .who-intro-content p {
+            font-size: 1.1875rem;
+            line-height: 1.85;
+            color: var(--text-medium);
+            margin-bottom: 20px;
+        }
+
+        .who-intro-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .who-intro-content strong {
+            color: var(--primary-dark);
+            font-weight: 600;
+        }
+
+        /* ============================================
+           PROBLEMS SECTION
+        ============================================ */
+        .problems-section {
+            background: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .problems-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: var(--gradient-card);
+            pointer-events: none;
+        }
+
+        .problems-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .problem-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-xl);
+            padding: 36px;
+            transition: var(--transition-normal);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .problem-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: linear-gradient(to bottom, var(--danger) 0%, var(--warning) 100%);
+            transform: scaleY(0);
+            transform-origin: top;
+            transition: var(--transition-normal);
+        }
+
+        .problem-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+            border-color: transparent;
+        }
+
+        .problem-card:hover::before {
+            transform: scaleY(1);
+        }
+
+        .problem-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(249, 115, 22, 0.1) 100%);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.625rem;
+            color: var(--danger);
+            margin-bottom: 24px;
+        }
+
+        .problem-card h3 {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 14px;
+            color: var(--text-dark);
+            line-height: 1.4;
+        }
+
+        .problem-card p {
+            font-size: 0.9375rem;
+            color: var(--text-medium);
+            line-height: 1.7;
+            margin-bottom: 0;
+        }
+
+        .problems-cta-box {
+            text-align: center;
+            margin-top: 70px;
+            padding: 50px;
+            background: var(--gradient-card);
+            border: 1px solid rgba(13, 148, 136, 0.15);
+            border-radius: var(--radius-2xl);
+            position: relative;
+            z-index: 2;
+        }
+
+        .problems-cta-box h3 {
+            font-size: 1.75rem;
+            margin-bottom: 16px;
+            color: var(--text-dark);
+        }
+
+        .problems-cta-box h3 .highlight {
+            color: var(--primary);
+        }
+
+        .problems-cta-box p {
+            font-size: 1.125rem;
+            color: var(--text-medium);
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* ============================================
+           SOLUTION SECTION
+        ============================================ */
+        .solution-section {
+            background: var(--gradient-hero);
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .solution-section .hero-particles {
+            opacity: 0.5;
+        }
+
+        .solution-section .hero-gradient-orb {
+            opacity: 0.5;
+        }
+
+        .solution-section .section-badge {
+            background: rgba(245, 158, 11, 0.15);
+            border-color: rgba(245, 158, 11, 0.4);
+            color: var(--secondary);
+        }
+
+        .solution-section .section-title {
+            background: linear-gradient(135deg, var(--white) 0%, rgba(255, 255, 255, 0.8) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .solution-section .section-description {
+            color: rgba(255, 255, 255, 0.85);
+        }
+
+        .solution-intro {
+            max-width: 850px;
+            margin: 0 auto 70px;
+            text-align: center;
+        }
+
+        .solution-intro p {
+            font-size: 1.1875rem;
+            line-height: 1.85;
+            color: rgba(255, 255, 255, 0.85);
+        }
+
+        .solution-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .solution-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: var(--radius-2xl);
+            padding: 44px;
+            text-align: center;
+            transition: var(--transition-normal);
+        }
+
+        .solution-card:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateY(-10px);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .solution-card-icon {
+            width: 90px;
+            height: 90px;
+            background: var(--gradient-secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.25rem;
+            color: var(--white);
+            margin: 0 auto 28px;
+            box-shadow: 0 15px 40px rgba(245, 158, 11, 0.35);
+        }
+
+        .solution-card h3 {
+            font-size: 1.375rem;
+            color: var(--white);
+            margin-bottom: 18px;
+        }
+
+        .solution-card > p {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 28px;
+            font-size: 1rem;
+        }
+
+        .solution-card ul {
+            text-align: left;
+        }
+
+        .solution-card ul li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 14px;
+            font-size: 0.9375rem;
+            color: rgba(255, 255, 255, 0.88);
+        }
+
+        .solution-card ul li:last-child {
+            margin-bottom: 0;
+        }
+
+        .solution-card ul li i {
+            color: var(--secondary);
+            margin-top: 4px;
+            font-size: 0.875rem;
+        }
+
+        /* ============================================
+           HOW IT WORKS SECTION
+        ============================================ */
+        .how-section {
+            background: var(--gray-50);
+        }
+
+        .how-timeline {
+            max-width: 950px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .how-timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 55px;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, var(--primary) 0%, var(--secondary) 50%, var(--accent) 100%);
+            border-radius: 4px;
+        }
+
+        .how-step {
+            display: flex;
+            gap: 50px;
+            margin-bottom: 55px;
+            position: relative;
+        }
+
+        .how-step:last-child {
+            margin-bottom: 0;
+        }
+
+        .how-step-number {
+            flex-shrink: 0;
+            width: 110px;
+            height: 110px;
+            background: var(--gradient-secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-primary);
+            font-size: 2.25rem;
+            font-weight: 800;
+            color: var(--white);
+            box-shadow: 0 15px 40px rgba(245, 158, 11, 0.35);
+            position: relative;
+            z-index: 10;
+        }
+
+        .how-step-content {
+            flex: 1;
+            background: var(--white);
+            padding: 40px;
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--gray-200);
+            transition: var(--transition-normal);
+        }
+
+        .how-step-content:hover {
+            transform: translateX(10px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--primary);
+        }
+
+        .how-step-content h3 {
+            font-size: 1.3125rem;
+            margin-bottom: 14px;
+            color: var(--primary-dark);
+        }
+
+        .how-step-content > p {
+            color: var(--text-medium);
+            margin-bottom: 24px;
+            font-size: 1rem;
+            line-height: 1.75;
+        }
+
+        .how-step-features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .how-step-features li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.9375rem;
+            color: var(--text-medium);
+        }
+
+        .how-step-features li i {
+            color: var(--success);
+            font-size: 0.875rem;
+        }
+
+        /* ============================================
+           SERVICES SECTION
+        ============================================ */
+        .services-section {
+            background: var(--white);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+        }
+
+        .service-card {
+            background: var(--white);
+            border: 2px solid var(--gray-200);
+            border-radius: var(--radius-2xl);
+            padding: 44px;
+            position: relative;
+            overflow: hidden;
+            transition: var(--transition-normal);
+        }
+
+        .service-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .service-card.popular {
+            border-color: var(--secondary);
+            box-shadow: var(--shadow-lg), 0 0 0 1px var(--secondary);
+        }
+
+        .service-card.popular:hover {
+            box-shadow: var(--shadow-xl), 0 0 0 2px var(--secondary);
+        }
+
+        .service-badge {
+            position: absolute;
+            top: 28px;
+            right: 28px;
+            background: var(--gradient-secondary);
+            color: var(--white);
+            padding: 6px 18px;
+            border-radius: var(--radius-full);
+            font-family: var(--font-primary);
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .service-icon {
+            width: 72px;
+            height: 72px;
+            background: var(--gradient-card);
+            border-radius: var(--radius-xl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.875rem;
+            color: var(--primary);
+            margin-bottom: 28px;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+            color: var(--text-dark);
+        }
+
+        .service-price {
+            font-family: var(--font-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--secondary-dark);
+            margin-bottom: 18px;
+        }
+
+        .service-description {
+            color: var(--text-medium);
+            margin-bottom: 28px;
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        .service-features {
+            margin-bottom: 32px;
+        }
+
+        .service-features li {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            margin-bottom: 14px;
+            font-size: 0.9375rem;
+            color: var(--text-medium);
+        }
+
+        .service-features li:last-child {
+            margin-bottom: 0;
+        }
+
+        .service-features li i {
+            color: var(--success);
+            margin-top: 4px;
+            font-size: 0.875rem;
+        }
+
+        .service-ideal {
+            background: var(--gray-50);
+            padding: 22px;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--gray-200);
+        }
+
+        .service-ideal h4 {
+            font-size: 0.875rem;
+            color: var(--text-dark);
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .service-ideal ul li {
+            font-size: 0.9rem;
+            color: var(--text-medium);
+            margin-bottom: 10px;
+            padding-left: 18px;
+            position: relative;
+        }
+
+        .service-ideal ul li:last-child {
+            margin-bottom: 0;
+        }
+
+        .service-ideal ul li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 9px;
+            width: 7px;
+            height: 7px;
+            background: var(--primary);
+            border-radius: 50%;
+        }
+
+        /* ============================================
+           TESTIMONIALS SECTION
+        ============================================ */
+        .testimonials-section {
+            background: var(--gray-50);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background: var(--white);
+            border-radius: var(--radius-2xl);
+            padding: 40px;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--gray-200);
+            transition: var(--transition-normal);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-2xl);
+            border-color: var(--primary);
+        }
+
+        .testimonial-card::before {
+            content: '\201C';
+            position: absolute;
+            top: 25px;
+            right: 35px;
+            font-size: 7rem;
+            font-family: Georgia, serif;
+            background: linear-gradient(135deg, rgba(13, 148, 136, 0.08) 0%, rgba(245, 158, 11, 0.08) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            pointer-events: none;
+        }
+
+        .testimonial-rating {
+            display: flex;
+            gap: 4px;
+            margin-bottom: 22px;
+        }
+
+        .testimonial-rating i {
+            color: var(--secondary);
+            font-size: 1.0625rem;
+        }
+
+        .testimonial-content {
+            font-size: 1rem;
+            line-height: 1.85;
+            color: var(--text-medium);
+            font-style: italic;
+            margin-bottom: 28px;
+            flex-grow: 1;
+        }
+
+        .testimonial-results {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(13, 148, 136, 0.08) 100%);
+            padding: 18px 22px;
+            border-radius: var(--radius-lg);
+            margin-bottom: 28px;
+            border: 1px solid rgba(16, 185, 129, 0.15);
+        }
+
+        .testimonial-result-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        .testimonial-result-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .testimonial-result-item i {
+            color: var(--success);
+            font-size: 0.9375rem;
+        }
+
+        .testimonial-result-item span {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .testimonial-avatar {
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-primary);
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--white);
+        }
+
+        .testimonial-author-info h4 {
+            font-size: 1.0625rem;
+            margin-bottom: 3px;
+            color: var(--text-dark);
+        }
+
+        .testimonial-author-info p {
+            font-size: 0.875rem;
+            color: var(--text-light);
+            margin: 0;
+        }
+
+        /* ============================================
+           ABOUT SECTION
+        ============================================ */
+        .about-section {
+            background: var(--white);
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 0.95fr 1.05fr;
+            gap: 90px;
+            align-items: center;
+        }
+
+        .about-image {
+            position: relative;
+        }
+
+        .about-image-main {
+            border-radius: var(--radius-2xl);
+            box-shadow: var(--shadow-2xl);
+            position: relative;
+            z-index: 2;
+        }
+
+        .about-image-bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: -28px;
+            left: -28px;
+            background: var(--gradient-primary);
+            border-radius: var(--radius-2xl);
+            z-index: 1;
+        }
+
+        .about-image-stats {
+            position: absolute;
+            bottom: -35px;
+            right: -35px;
+            background: var(--white);
+            padding: 28px 35px;
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-xl);
+            z-index: 3;
+            border: 1px solid var(--gray-100);
+        }
+
+        .about-image-stats-number {
+            font-family: var(--font-primary);
+            font-size: 2.75rem;
+            font-weight: 800;
+            background: var(--gradient-secondary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin-bottom: 5px;
+        }
+
+        .about-image-stats-label {
+            font-size: 0.9375rem;
+            color: var(--text-medium);
+            font-weight: 500;
+        }
+
+        .about-text .section-badge {
+            margin-bottom: 18px;
+        }
+
+        .about-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--text-dark);
+        }
+
+        .about-text .lead {
+            font-size: 1.1875rem;
+            color: var(--primary-dark);
+            font-weight: 500;
+            margin-bottom: 24px;
+            line-height: 1.7;
+        }
+
+        .about-text p {
+            font-size: 1.0625rem;
+            color: var(--text-medium);
+            margin-bottom: 18px;
+            line-height: 1.8;
+        }
+
+        .about-features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-top: 35px;
+        }
+
+        .about-feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .about-feature-icon {
+            width: 54px;
+            height: 54px;
+            background: var(--gradient-card);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.375rem;
+            color: var(--primary);
+            flex-shrink: 0;
+            border: 1px solid rgba(13, 148, 136, 0.15);
+        }
+
+        .about-feature-text h4 {
+            font-size: 1rem;
+            margin-bottom: 4px;
+            color: var(--text-dark);
+        }
+
+        .about-feature-text p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 0;
+        }
+
+        /* ============================================
+           COMPARISON SECTION
+        ============================================ */
+        .comparison-section {
+            background: var(--gray-50);
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 35px;
+            max-width: 1050px;
+            margin: 0 auto;
+        }
+
+        .comparison-column {
+            background: var(--white);
+            border-radius: var(--radius-2xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--gray-200);
+        }
+
+        .comparison-column.traditional .comparison-header {
+            background: linear-gradient(135deg, #64748b 0%, #475569 100%);
+        }
+
+        .comparison-column.reverse .comparison-header {
+            background: var(--gradient-primary);
+        }
+
+        .comparison-header {
+            padding: 35px;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .comparison-header h3 {
+            font-size: 1.5rem;
+            color: var(--white);
+            margin-bottom: 6px;
+        }
+
+        .comparison-header p {
+            font-size: 0.9375rem;
+            opacity: 0.88;
+            margin-bottom: 0;
+        }
+
+        .comparison-body {
+            padding: 35px;
+        }
+
+        .comparison-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 18px 0;
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .comparison-item:first-child {
+            padding-top: 0;
+        }
+
+        .comparison-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .comparison-item i {
+            font-size: 1.0625rem;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        .comparison-column.traditional .comparison-item i {
+            color: var(--danger);
+        }
+
+        .comparison-column.reverse .comparison-item i {
+            color: var(--success);
+        }
+
+        .comparison-item span {
+            font-size: 0.9687rem;
+            color: var(--text-medium);
+            line-height: 1.6;
+        }
+
+        /* ============================================
+           WHO I SERVE SECTION
+        ============================================ */
+        .who-section {
+            background: var(--white);
+        }
+
+        .who-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .who-card {
+            background: var(--gray-50);
+            border-radius: var(--radius-2xl);
+            padding: 40px;
+            text-align: center;
+            transition: var(--transition-normal);
+            border: 2px solid transparent;
+        }
+
+        .who-card:hover {
+            background: var(--white);
+            border-color: var(--primary);
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .who-card-icon {
+            width: 88px;
+            height: 88px;
+            background: var(--gradient-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.25rem;
+            color: var(--white);
+            margin: 0 auto 28px;
+            box-shadow: 0 12px 35px rgba(13, 148, 136, 0.3);
+        }
+
+        .who-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 16px;
+            color: var(--text-dark);
+        }
+
+        .who-card p {
+            font-size: 0.9687rem;
+            color: var(--text-medium);
+            margin-bottom: 24px;
+            line-height: 1.7;
+        }
+
+        .who-card-result {
+            background: var(--white);
+            padding: 16px 20px;
+            border-radius: var(--radius-lg);
+            font-family: var(--font-primary);
+            font-size: 0.9375rem;
+            color: var(--success);
+            font-weight: 600;
+            border: 1px solid var(--gray-200);
+        }
+
+        .who-card:hover .who-card-result {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(13, 148, 136, 0.08) 100%);
+            border-color: rgba(16, 185, 129, 0.2);
+        }
+
+        /* ============================================
+           FAQ SECTION
+        ============================================ */
+        .faq-section {
+            background: var(--gray-50);
+        }
+
+        .faq-container {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--white);
+            border-radius: var(--radius-xl);
+            margin-bottom: 18px;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--gray-200);
+            transition: var(--transition-normal);
+        }
+
+        .faq-item:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+        }
+
+        .faq-item.active {
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary);
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 28px 32px;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: var(--transition-normal);
+            text-align: left;
+        }
+
+        .faq-question:hover {
+            background: var(--gray-50);
+        }
+
+        .faq-question h3 {
+            font-size: 1.0625rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0;
+            padding-right: 20px;
+            line-height: 1.5;
+        }
+
+        .faq-question i {
+            font-size: 1.25rem;
+            color: var(--primary);
+            transition: var(--transition-normal);
+            flex-shrink: 0;
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        .faq-answer-content {
+            padding: 0 32px 28px;
+        }
+
+        .faq-answer-content p {
+            font-size: 1rem;
+            color: var(--text-medium);
+            line-height: 1.85;
+        }
+
+        /* ============================================
+           CTA SECTION
+        ============================================ */
+        .cta-section {
+            background: var(--gradient-hero);
+            color: var(--white);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section .hero-gradient-orb {
+            opacity: 0.4;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 10;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .cta-section h2 {
+            font-size: clamp(2rem, 4vw, 2.75rem);
+            color: var(--white);
+            margin-bottom: 22px;
+        }
+
+        .cta-section > .container > .cta-content > p:first-of-type {
+            font-size: 1.1875rem;
+            color: rgba(255, 255, 255, 0.88);
+            margin-bottom: 45px;
+            line-height: 1.8;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 22px;
+            flex-wrap: wrap;
+            margin-bottom: 45px;
+        }
+
+        .cta-email-box {
+            display: inline-flex;
+            align-items: center;
+            gap: 18px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            padding: 22px 32px;
+            border-radius: var(--radius-xl);
+            transition: var(--transition-normal);
+        }
+
+        .cta-email-box:hover {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: rgba(255, 255, 255, 0.25);
+        }
+
+        .cta-email-box i {
+            font-size: 1.625rem;
+            color: var(--secondary);
+        }
+
+        .cta-email-text {
+            text-align: left;
+        }
+
+        .cta-email-label {
+            font-size: 0.8125rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: rgba(255, 255, 255, 0.7);
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .cta-email-address {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--white);
+        }
+
+        /* ============================================
+           CONTACT SECTION
+        ============================================ */
+        .contact-section {
+            background: var(--white);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.25fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .contact-info {
+            background: var(--gradient-hero);
+            color: var(--white);
+            padding: 55px;
+            border-radius: var(--radius-2xl);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-info::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -30%;
+            width: 350px;
+            height: 350px;
+            background: radial-gradient(circle, rgba(245, 158, 11, 0.2) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .contact-info-content {
+            position: relative;
+            z-index: 10;
+        }
+
+        .contact-info h3 {
+            font-size: 1.75rem;
+            color: var(--white);
+            margin-bottom: 18px;
+        }
+
+        .contact-info > .contact-info-content > p:first-of-type {
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 45px;
+            font-size: 1.0625rem;
+            line-height: 1.75;
+        }
+
+        .contact-info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 22px;
+            margin-bottom: 35px;
+        }
+
+        .contact-info-item:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .contact-info-icon {
+            width: 58px;
+            height: 58px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.375rem;
+            color: var(--secondary);
+            flex-shrink: 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .contact-info-text h4 {
+            font-size: 1.0625rem;
+            color: var(--white);
+            margin-bottom: 6px;
+        }
+
+        .contact-info-text p {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 0;
+        }
+
+        .contact-info-text a {
+            color: var(--secondary);
+            font-weight: 600;
+            font-size: 1.125rem;
+        }
+
+        .contact-info-text a:hover {
+            color: var(--secondary-light);
+        }
+
+        .contact-social {
+            margin-top: 50px;
+            padding-top: 35px;
+            border-top: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .contact-social h4 {
+            font-size: 1.0625rem;
+            color: var(--white);
+            margin-bottom: 22px;
+        }
+
+        .contact-social-links {
+            display: flex;
+            gap: 14px;
+        }
+
+        .contact-social-links a {
+            width: 48px;
+            height: 48px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            color: var(--white);
+            transition: var(--transition-normal);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .contact-social-links a:hover {
+            background: var(--secondary);
+            border-color: var(--secondary);
+            transform: translateY(-4px);
+        }
+
+        .contact-form-wrapper {
+            background: var(--gray-50);
+            padding: 55px;
+            border-radius: var(--radius-2xl);
+            border: 1px solid var(--gray-200);
+        }
+
+        .contact-form-wrapper h3 {
+            font-size: 1.75rem;
+            margin-bottom: 12px;
+            color: var(--text-dark);
+        }
+
+        .contact-form-wrapper > p {
+            color: var(--text-medium);
+            margin-bottom: 35px;
+            font-size: 1.0625rem;
+        }
+
+        .contact-form {
+            display: grid;
+            gap: 24px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .form-group {
+            position: relative;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+        }
+
+        .form-group label .required {
+            color: var(--danger);
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 16px 20px;
+            border: 2px solid var(--gray-300);
+            border-radius: var(--radius-lg);
+            font-size: 1rem;
+            color: var(--text-dark);
+            background: var(--white);
+            transition: var(--transition-normal);
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: var(--text-lighter);
+        }
+
+        .form-submit {
+            margin-top: 12px;
+        }
+
+        .form-submit .btn {
+            width: 100%;
+            padding: 20px;
+            font-size: 1.0625rem;
+        }
+
+        /* ============================================
+           FOOTER
+        ============================================ */
+        .footer {
+            background: var(--navy);
+            color: var(--white);
+            padding: 90px 0 35px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.6fr 1fr 1fr 1.3fr;
+            gap: 55px;
+            margin-bottom: 70px;
+        }
+
+        .footer-brand img {
+            width: 85px;
+            height: 85px;
+            border-radius: 50%;
+            border: 3px solid var(--secondary);
+            margin-bottom: 22px;
+            object-fit: cover;
+        }
+
+        .footer-brand h3 {
+            font-size: 1.5rem;
+            color: var(--white);
+            margin-bottom: 10px;
+        }
+
+        .footer-brand p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9687rem;
+            margin-bottom: 22px;
+            line-height: 1.7;
+        }
+
+        .footer-brand-email {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--secondary);
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .footer-brand-email:hover {
+            color: var(--secondary-light);
+        }
+
+        .footer-column h4 {
+            font-size: 1.125rem;
+            color: var(--white);
+            margin-bottom: 28px;
+            position: relative;
+            padding-bottom: 16px;
+        }
+
+        .footer-column h4::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 45px;
+            height: 3px;
+            background: var(--gradient-secondary);
+            border-radius: 3px;
+        }
+
+        .footer-links li {
+            margin-bottom: 14px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9687rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: var(--transition-normal);
+        }
+
+        .footer-links a:hover {
+            color: var(--secondary);
+            transform: translateX(6px);
+        }
+
+        .footer-links a i {
+            font-size: 0.75rem;
+            opacity: 0;
+            transition: var(--transition-normal);
+        }
+
+        .footer-links a:hover i {
+            opacity: 1;
+        }
+
+        .footer-newsletter p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9687rem;
+            margin-bottom: 22px;
+            line-height: 1.7;
+        }
+
+        .footer-newsletter-form {
+            display: flex;
+            gap: 12px;
+        }
+
+        .footer-newsletter-form input {
+            flex: 1;
+            padding: 15px 20px;
+            border: none;
+            border-radius: var(--radius-lg);
+            font-size: 0.9687rem;
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-newsletter-form input::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .footer-newsletter-form input:focus {
+            border-color: var(--secondary);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .footer-newsletter-form button {
+            padding: 15px 28px;
+            background: var(--gradient-secondary);
+            color: var(--white);
+            border-radius: var(--radius-lg);
+            font-weight: 600;
+            transition: var(--transition-normal);
+        }
+
+        .footer-newsletter-form button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 14px;
+            margin-top: 28px;
+        }
+
+        .footer-social a {
+            width: 46px;
+            height: 46px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            color: var(--white);
+            transition: var(--transition-normal);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-social a:hover {
+            background: var(--secondary);
+            border-color: var(--secondary);
+            transform: translateY(-4px);
+        }
+
+        .footer-bottom {
+            padding-top: 35px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 22px;
+        }
+
+        .footer-bottom p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+
+        .footer-bottom-links {
+            display: flex;
+            gap: 35px;
+        }
+
+        .footer-bottom-links a {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom-links a:hover {
+            color: var(--secondary);
+        }
+
+        /* ============================================
+           BACK TO TOP BUTTON
+        ============================================ */
+        .back-to-top {
+            position: fixed;
+            bottom: 35px;
+            right: 35px;
+            width: 54px;
+            height: 54px;
+            background: var(--gradient-secondary);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.375rem;
+            box-shadow: var(--shadow-lg), var(--shadow-glow-secondary);
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition-normal);
+            z-index: 999;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-xl), 0 0 50px rgba(245, 158, 11, 0.5);
+        }
+
+        /* ============================================
+           RESPONSIVE STYLES
+        ============================================ */
+        @media (max-width: 1280px) {
+            .container {
+                padding: 0 32px;
+            }
+
+            .hero .container {
+                gap: 60px;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .navbar-menu {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 320px;
+                height: 100vh;
+                background: var(--white);
+                flex-direction: column;
+                justify-content: center;
+                padding: 50px;
+                box-shadow: var(--shadow-2xl);
+                transition: var(--transition-normal);
+                gap: 30px;
+            }
+
+            .navbar-menu.active {
+                right: 0;
+            }
+
+            .navbar-link {
+                color: var(--text-dark);
+                font-size: 1.125rem;
+            }
+
+            .navbar-toggle {
+                display: flex;
+            }
+
+            .hero .container {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding-top: 140px;
+            }
+
+            .hero-description {
+                max-width: 650px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .hero-cta {
+                justify-content: center;
+            }
+
+            .hero-stats {
+                justify-content: center;
+            }
+
+            .hero-visual {
+                display: none;
+            }
+
+            .problems-grid,
+            .solution-cards,
+            .testimonials-grid,
+            .who-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .about-content,
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+
+            .about-image {
+                max-width: 450px;
+                margin: 0 auto;
+            }
+
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .how-timeline::before {
+                left: 35px;
+            }
+
+            .how-step-number {
+                width: 70px;
+                height: 70px;
+                font-size: 1.75rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                padding: 80px 0;
+            }
+
+            .section-header {
+                margin-bottom: 55px;
+            }
+
+            .hero-title {
+                font-size: 2.125rem;
+            }
+
+            .hero-description {
+                font-size: 1.0625rem;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero-stats {
+                flex-direction: column;
+                gap: 25px;
+            }
+
+            .hero-stat::after {
+                display: none;
+            }
+
+            .problems-grid,
+            .solution-cards,
+            .testimonials-grid,
+            .who-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .how-step {
+                flex-direction: column;
+                gap: 25px;
+            }
+
+            .how-timeline::before {
+                display: none;
+            }
+
+            .how-step-features {
+                grid-template-columns: 1fr;
+            }
+
+            .about-features {
+                grid-template-columns: 1fr;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 45px;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-bottom-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .cta-section h2 {
+                font-size: 1.875rem;
+            }
+
+            .contact-info,
+            .contact-form-wrapper {
+                padding: 38px;
+            }
+
+            .trust-badges {
+                gap: 16px;
+            }
+
+            .trust-badge {
+                padding: 14px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 18px;
+            }
+
+            .hero-badge {
+                font-size: 0.75rem;
+                padding: 8px 18px;
+            }
+
+            .hero-title {
+                font-size: 1.75rem;
+            }
+
+            .btn {
+                padding: 14px 30px;
+                font-size: 0.9375rem;
+            }
+
+            .btn-large {
+                padding: 18px 38px;
+            }
+
+            .trust-badges {
+                flex-direction: column;
+            }
+
+            .footer-newsletter-form {
+                flex-direction: column;
+            }
+
+            .back-to-top {
+                width: 48px;
+                height: 48px;
+                font-size: 1.25rem;
+                bottom: 25px;
+                right: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ============================================
+         PRELOADER
+    ============================================ -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo-wrapper">
+                <div class="preloader-ring"></div>
+                <div class="preloader-ring"></div>
+                <img src="lillian.png" alt="Lillian D. Correia" class="preloader-logo">
+            </div>
+            <p class="preloader-text">Lillian D. Correia</p>
+            <p class="preloader-subtext">Nurse Career Strategist</p>
+        </div>
+    </div>
+
+    <!-- ============================================
+         NAVIGATION
+    ============================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="lillian.png" alt="Lillian D. Correia" class="navbar-brand-logo">
+                <div class="navbar-brand-text">
+                    <span class="navbar-brand-name">Lillian D. Correia</span>
+                    <span class="navbar-brand-title">Nurse Career Strategist</span>
+                </div>
+            </a>
+
+            <div class="navbar-menu" id="navbarMenu">
+                <a href="#home" class="navbar-link">Home</a>
+                <a href="#services" class="navbar-link">Services</a>
+                <a href="#about" class="navbar-link">About</a>
+                <a href="#testimonials" class="navbar-link">Success Stories</a>
+                <a href="#faq" class="navbar-link">FAQ</a>
+                <a href="#contact" class="navbar-cta">Get Started</a>
+            </div>
+
+            <button class="navbar-toggle" id="navbarToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+    ============================================ -->
+    <section class="hero" id="home">
+        <div class="hero-bg-pattern"></div>
+        
+        <div class="hero-particles">
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+        </div>
+
+        <div class="hero-gradient-orb hero-orb-1"></div>
+        <div class="hero-gradient-orb hero-orb-2"></div>
+        <div class="hero-gradient-orb hero-orb-3"></div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>Reverse Recruiter for Nurses</span>
+                </div>
+
+                <h1 class="hero-title">
+                    Tired of Being Underpaid as a Nurse?
+                    <span class="highlight">Start Landing Roles That Pay What You Actually Deserve.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I am Lillian D. Correia, a Reverse Recruiter and Nurse Career Strategist who works exclusively with RNs, APRNs, and Travel Nurses. I find the opportunities, position your resume, and connect you directly with decision makers who are actively hiring so you stop applying into the void and start getting real offers at real pay.
+                </p>
+
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket btn-icon"></i>
+                        Transform Your Nursing Career
+                    </a>
+                    <a href="#testimonials" class="btn btn-secondary btn-large">
+                        <i class="fas fa-star btn-icon"></i>
+                        View Success Stories
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">$3K-$5K</span>
+                        <span class="hero-stat-label">Travel RN Weekly Pay</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">$130K+</span>
+                        <span class="hero-stat-label">NP and DNP Roles</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">30-60</span>
+                        <span class="hero-stat-label">Days Average to Offer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-glow"></div>
+                    <img src="lillian.png" alt="Lillian D. Correia - Nurse Career Strategist" class="hero-image-main">
+                    <div class="hero-image-decoration"></div>
+                </div>
+
+                <div class="hero-floating-card card-1">
+                    <div class="hero-card-icon success">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="hero-card-content">
+                        <h4>Travel Contract Landed!</h4>
+                        <p>$4,200/week ICU RN</p>
+                    </div>
+                </div>
+
+                <div class="hero-floating-card card-2">
+                    <div class="hero-card-icon gold">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="hero-card-content">
+                        <h4>Remote Role Secured</h4>
+                        <p>$95K Case Manager RN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ============================================
+         TRUST SECTION
+    ============================================ -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-content" data-aos="fade-up">
+                <p class="trust-title">Trusted by Nurses Across Every Specialty</p>
+                <div class="trust-badges">
+                    <div class="trust-badge">
+                        <i class="fas fa-user-nurse"></i>
+                        <span>RN and APRN Specialist</span>
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-star"></i>
+                        <span>5 Star Rated</span>
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>Nurse Career Strategist</span>
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-plane"></i>
+                        <span>Travel and Remote Placements</span>
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-clock"></i>
+                        <span>30 to 60 Day Results</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         WHO I WORK WITH INTRO SECTION
+    ============================================ -->
+    <section class="who-intro-section">
+        <div class="container">
+            <div class="who-intro-content" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-heart"></i>
+                    <span>Who I Work With</span>
+                </div>
+                <h2>I Work Exclusively With Nurses</h2>
+                <p>
+                    Whether you are a burned out staff RN ready to explore travel nursing, an APRN looking for your first NP role, or an experienced nurse wanting to pivot to remote case management or medical device sales, I find the opportunities, position your resume, and get you in front of decision makers who are actively hiring right now.
+                </p>
+                <p>
+                    My clients are RNs and APRNs across every specialty: ICU, ER, L&D, Behavioral Health, Oncology, Psych, Med-Surg, and more. They are not just landing jobs. They are landing the <strong>right</strong> jobs at the <strong>right</strong> pay.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PROBLEMS SECTION
+    ============================================ -->
+    <section class="section problems-section" id="problems">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span>The Struggle Is Real</span>
+                </div>
+                <h2 class="section-title">Are These Nursing Career Frustrations Familiar?</h2>
+                <p class="section-description">
+                    You worked hard to become a nurse. You sacrifice sleep, skip meals, and pour yourself into your patients every single shift. Yet the pay, the flexibility, and the recognition still feel out of reach. You are not alone and it is not your fault.
+                </p>
+            </div>
+
+            <div class="problems-grid">
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="problem-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>You Are Earning Far Less Than Your Experience Is Worth</h3>
+                    <p>Staff nursing pay has not kept up with the demand for skilled RNs. You have years of clinical experience, specialty certifications, and proven results but your paycheck does not reflect any of it. You know travel nurses are earning two to three times your current rate for the same work.</p>
+                </div>
+
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="problem-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>You Have No Idea How to Break Into Travel Nursing or Remote Roles</h3>
+                    <p>Everyone talks about travel nursing but no one tells you how it actually works. Which agencies are reputable? What contracts are worth taking? How do you negotiate pay packages? How do you position your specialty to get the highest rates? The information is scattered and confusing.</p>
+                </div>
+
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="problem-icon">
+                        <i class="fas fa-eye-slash"></i>
+                    </div>
+                    <h3>Your Resume and LinkedIn Are Invisible to the Right Employers</h3>
+                    <p>You have a resume but it reads like every other nurse resume. It lists your jobs but does not communicate your clinical value, your specialty depth, or why you are the nurse any unit would fight to hire. You are not getting callbacks because the right people are not seeing the right version of you.</p>
+                </div>
+
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="problem-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>You Are Burned Out and Desperate for a Change</h3>
+                    <p>Twelve hour shifts. Mandatory overtime. Short staffing. Difficult administrators. You became a nurse to help people not to be stretched so thin you cannot give your patients the care they deserve. You know something has to change but you do not know where to start.</p>
+                </div>
+
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="problem-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>You Have Advanced Credentials That Are Being Completely Underutilized</h3>
+                    <p>You earned your BSN, MSN, NP, or DNP. You have certifications, specialty training, and years of clinical leadership. But you are still working a role that treats you like a new graduate. Your credentials should be opening doors and they are not.</p>
+                </div>
+
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="problem-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>You Do Not Know Your True Value in the Current Market</h3>
+                    <p>ICU nurses with your experience are landing travel contracts at $4,500 a week. NPs with your credentials are earning $150,000 plus. Remote case managers are making $95,000 from home. You have no idea what is actually possible because no one has ever shown you the full picture.</p>
+                </div>
+            </div>
+
+            <div class="problems-cta-box" data-aos="fade-up">
+                <h3>The Problem Is Not Your Skills. <span class="highlight">It Is Your Strategy.</span></h3>
+                <p>You are clinically excellent. The healthcare system needs nurses like you desperately. But nursing school never taught you how to negotiate, position yourself, or access the highest paying opportunities. That is exactly what I do for you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SOLUTION SECTION
+    ============================================ -->
+    <section class="section solution-section" id="solution">
+        <div class="hero-particles">
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+            <div class="hero-particle"></div>
+        </div>
+
+        <div class="hero-gradient-orb hero-orb-1"></div>
+        <div class="hero-gradient-orb hero-orb-2"></div>
+
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>The Solution</span>
+                </div>
+                <h2 class="section-title">Introducing Nurse Reverse Recruiting</h2>
+                <p class="section-description">
+                    Instead of applying to job boards and hoping someone calls you back, I work FOR you, positioning your clinical background strategically, connecting you directly with decision makers, and making sure opportunities come looking for you.
+                </p>
+            </div>
+
+            <div class="solution-intro" data-aos="fade-up">
+                <p>
+                    Traditional nursing job searches are passive. You upload a resume to Indeed, apply to a travel agency, and wait. Nurse reverse recruiting is the opposite. I study your clinical background, identify the specific roles and organizations where you are most competitive, and reach out directly on your behalf. I am your dedicated career advocate in a system that was built for hospitals not for nurses.
+                </p>
+            </div>
+
+            <div class="solution-cards">
+                <div class="solution-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="solution-card-icon">
+                        <i class="fas fa-file-medical-alt"></i>
+                    </div>
+                    <h3>Strategic Resume and LinkedIn Positioning</h3>
+                    <p>I transform how your nursing background is presented to the market making your clinical value impossible to ignore.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> ATS optimized nurse resume writing</li>
+                        <li><i class="fas fa-check"></i> LinkedIn profile built for recruiter searches</li>
+                        <li><i class="fas fa-check"></i> Specialty and certification positioning</li>
+                        <li><i class="fas fa-check"></i> Clinical narrative development</li>
+                        <li><i class="fas fa-check"></i> Cover letter templates for nursing roles</li>
+                    </ul>
+                </div>
+
+                <div class="solution-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="solution-card-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Direct Outreach to Decision Makers</h3>
+                    <p>I identify your highest value opportunities and connect you directly with nurse recruiters, staffing agencies, and hiring managers.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Travel agency identification and vetting</li>
+                        <li><i class="fas fa-check"></i> Direct recruiter outreach on your behalf</li>
+                        <li><i class="fas fa-check"></i> Hidden job market access for NP and DNP roles</li>
+                        <li><i class="fas fa-check"></i> Medical device and pharma sales introductions</li>
+                        <li><i class="fas fa-check"></i> Remote case management role identification</li>
+                    </ul>
+                </div>
+
+                <div class="solution-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="solution-card-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Pay Package Negotiation and Offer Support</h3>
+                    <p>I prepare you to negotiate from a position of knowledge so you never again leave money on the table.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Travel nursing pay package breakdown</li>
+                        <li><i class="fas fa-check"></i> Stipend and tax advantage maximization</li>
+                        <li><i class="fas fa-check"></i> Salary benchmarking for staff and NP roles</li>
+                        <li><i class="fas fa-check"></i> Negotiation scripts and strategy</li>
+                        <li><i class="fas fa-check"></i> Offer evaluation and comparison support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         HOW IT WORKS SECTION
+    ============================================ -->
+    <section class="section how-section" id="how">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-route"></i>
+                    <span>The Process</span>
+                </div>
+                <h2 class="section-title">How I Get You From Where You Are to Where You Want to Be</h2>
+                <p class="section-description">
+                    A clear, proven process built specifically for nurses. No guesswork. No wasted applications. Just strategic steps that lead to real offers at real pay.
+                </p>
+            </div>
+
+            <div class="how-timeline">
+                <div class="how-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="how-step-number">1</div>
+                    <div class="how-step-content">
+                        <h3>Deep Dive Into Your Nursing Background and Career Goals</h3>
+                        <p>We start by reviewing your full clinical history: specialties, certifications, years of experience, and what you actually want next. Travel nursing? Remote case management? NP placement? Medical device sales? We get crystal clear on your target before we do anything else.</p>
+                        <ul class="how-step-features">
+                            <li><i class="fas fa-check-circle"></i> Complete clinical background review</li>
+                            <li><i class="fas fa-check-circle"></i> Specialty and certification assessment</li>
+                            <li><i class="fas fa-check-circle"></i> Goal clarification and target identification</li>
+                            <li><i class="fas fa-check-circle"></i> Personalized nurse career roadmap</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="how-step" data-aos="fade-up" data-aos-delay="150">
+                    <div class="how-step-number">2</div>
+                    <div class="how-step-content">
+                        <h3>Resume and LinkedIn Transformation for Nursing Markets</h3>
+                        <p>I completely rebuild your professional presence from a nurse perspective. Your resume will be optimized for travel agency applicant tracking systems, hospital recruiter searches, and the specific roles you are targeting. Your LinkedIn will attract inbound interest automatically.</p>
+                        <ul class="how-step-features">
+                            <li><i class="fas fa-check-circle"></i> ATS optimized nursing resume rewrite</li>
+                            <li><i class="fas fa-check-circle"></i> LinkedIn profile built for nursing recruiters</li>
+                            <li><i class="fas fa-check-circle"></i> Specialty and skills positioning strategy</li>
+                            <li><i class="fas fa-check-circle"></i> Travel nursing profile optimization</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="how-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="how-step-number">3</div>
+                    <div class="how-step-content">
+                        <h3>Identifying Your Highest Value Opportunities</h3>
+                        <p>I research the current market for your specific specialty and experience level identifying travel contracts, remote roles, NP openings, and direct hire positions that match your background and your goals. I only pursue opportunities that are worth your time.</p>
+                        <ul class="how-step-features">
+                            <li><i class="fas fa-check-circle"></i> Travel contract market research by specialty</li>
+                            <li><i class="fas fa-check-circle"></i> Remote RN role identification</li>
+                            <li><i class="fas fa-check-circle"></i> NP and DNP position sourcing</li>
+                            <li><i class="fas fa-check-circle"></i> Medical device and pharma sales targeting</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="how-step" data-aos="fade-up" data-aos-delay="250">
+                    <div class="how-step-number">4</div>
+                    <div class="how-step-content">
+                        <h3>Direct Outreach to Recruiters and Hiring Managers</h3>
+                        <p>I reach out directly to the right people on your behalf: travel nursing agencies, hospital recruiters, remote healthcare organizations, and hiring managers. You do not wait by the phone. You get calls scheduled.</p>
+                        <ul class="how-step-features">
+                            <li><i class="fas fa-check-circle"></i> Personalized outreach to travel agencies</li>
+                            <li><i class="fas fa-check-circle"></i> Direct contact with hiring nurse managers</li>
+                            <li><i class="fas fa-check-circle"></i> Remote healthcare organization outreach</li>
+                            <li><i class="fas fa-check-circle"></i> Interview scheduling and coordination support</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="how-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="how-step-number">5</div>
+                    <div class="how-step-content">
+                        <h3>Interview Preparation and Confidence Coaching</h3>
+                        <p>When interviews come in and they will I prepare you to walk in confident and walk out with an offer. We cover the questions you will actually be asked, the clinical scenarios they will test you on, and how to communicate your value without underselling yourself.</p>
+                        <ul class="how-step-features">
+                            <li><i class="fas fa-check-circle"></i> Nurse interview question preparation</li>
+                            <li><i class="fas fa-check-circle"></i> Clinical scenario coaching</li>
+                            <li><i class="fas fa-check-circle"></i> Behavioral interview answer development</li>
+                            <li><i class="fas fa-check-circle"></i> Confidence and salary expectation framing</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="how-step" data-aos="fade-up" data-aos-delay="350">
+                    <div class="how-step-number">6</div>
+                    <div class="how-step-content">
+                        <h3>Pay Package Negotiation and Placement Support</h3>
+                        <p>When offers arrive I help you understand exactly what you are being offered, what you should counter, and how to maximize every component of your compensation: base pay, stipends, bonuses, benefits, and licensing reimbursements. Most clients recover their full investment in the first week of their new contract.</p>
+                        <ul class="how-step-features">
+                            <li><i class="fas fa-check-circle"></i> Travel pay package breakdown and analysis</li>
+                            <li><i class="fas fa-check-circle"></i> Negotiation strategy and scripting</li>
+                            <li><i class="fas fa-check-circle"></i> Stipend and tax advantage education</li>
+                            <li><i class="fas fa-check-circle"></i> Offer comparison and final decision support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SERVICES SECTION
+    ============================================ -->
+    <section class="section services-section" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-briefcase-medical"></i>
+                    <span>What I Offer</span>
+                </div>
+                <h2 class="section-title">Nurse Career Packages Designed to Get You Paid More</h2>
+                <p class="section-description">
+                    Every package is built specifically for nurses. Choose the level of support that fits your situation and your goals. Every investment is designed to pay for itself fast.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Nurse Resume and LinkedIn Package</h3>
+                    <p class="service-price">Investment: $297</p>
+                    <p class="service-description">Your resume and LinkedIn are the first things every travel agency, recruiter, and hiring manager sees. If they are not optimized for nursing markets you are invisible. I fix that.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Complete nursing resume rewrite (ATS optimized)</li>
+                        <li><i class="fas fa-check"></i> LinkedIn profile optimization for nursing recruiters</li>
+                        <li><i class="fas fa-check"></i> Specialty and certification positioning</li>
+                        <li><i class="fas fa-check"></i> Clinical skills and achievements language</li>
+                        <li><i class="fas fa-check"></i> One round of revisions included</li>
+                    </ul>
+                    <div class="service-ideal">
+                        <h4>Ideal For:</h4>
+                        <ul>
+                            <li>RNs applying to travel agencies</li>
+                            <li>Nurses refreshing after a career gap</li>
+                            <li>New grads needing a strong first impression</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Nurse Interview Coaching Package</h3>
+                    <p class="service-price">Investment: $497 (Three Sessions)</p>
+                    <p class="service-description">Travel agency interviews. NP panel interviews. Remote case management video screens. I prepare you for every format so you walk in confident and walk out with an offer.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Three one-on-one coaching sessions</li>
+                        <li><i class="fas fa-check"></i> Role specific question preparation</li>
+                        <li><i class="fas fa-check"></i> Clinical scenario response coaching</li>
+                        <li><i class="fas fa-check"></i> Salary and pay package negotiation prep</li>
+                        <li><i class="fas fa-check"></i> Mock interview with live feedback</li>
+                        <li><i class="fas fa-check"></i> Offer evaluation support</li>
+                    </ul>
+                    <div class="service-ideal">
+                        <h4>Ideal For:</h4>
+                        <ul>
+                            <li>Nurses interviewing for the first time in years</li>
+                            <li>RNs transitioning to NP or leadership roles</li>
+                            <li>Travel nurses negotiating first contracts</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card popular" data-aos="fade-up" data-aos-delay="200">
+                    <span class="service-badge">Most Popular</span>
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Done For You Nurse Job Search</h3>
+                    <p class="service-price">Investment: $1,500</p>
+                    <p class="service-description">I do the heavy lifting. I find your opportunities, position your resume, reach out to the right people, and get you in front of decision makers. You focus on nursing. I focus on your career.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Everything in Resume and LinkedIn Package</li>
+                        <li><i class="fas fa-check"></i> Full job search strategy and execution</li>
+                        <li><i class="fas fa-check"></i> Direct outreach to agencies and hiring managers</li>
+                        <li><i class="fas fa-check"></i> Travel contract and remote role sourcing</li>
+                        <li><i class="fas fa-check"></i> Interview preparation and coaching</li>
+                        <li><i class="fas fa-check"></i> Pay package negotiation support</li>
+                        <li><i class="fas fa-check"></i> Regular check-ins and progress updates</li>
+                        <li><i class="fas fa-check"></i> Placement support until you sign an offer</li>
+                    </ul>
+                    <div class="service-ideal">
+                        <h4>Ideal For:</h4>
+                        <ul>
+                            <li>Staff RNs ready to start travel nursing</li>
+                            <li>Nurses pivoting to remote case management</li>
+                            <li>RNs wanting to maximize their next move</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="service-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>NP, DNP, and Nurse Pivot Premium Package</h3>
+                    <p class="service-price">Investment: $2,000 to $2,500</p>
+                    <p class="service-description">Advanced practice nurses and experienced RNs pivoting to medical device sales, pharma, or executive nursing roles need a premium level strategy. This is the white glove service for high stakes career moves.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Everything in Done For You Package</li>
+                        <li><i class="fas fa-check"></i> APRN and NP specific positioning strategy</li>
+                        <li><i class="fas fa-check"></i> Medical device and pharma sales targeting</li>
+                        <li><i class="fas fa-check"></i> Executive nursing role identification</li>
+                        <li><i class="fas fa-check"></i> Advanced negotiation support ($130K to $220K roles)</li>
+                        <li><i class="fas fa-check"></i> Direct introductions to NP hiring networks</li>
+                        <li><i class="fas fa-check"></i> Confidential search management</li>
+                        <li><i class="fas fa-check"></i> Unlimited support until placement</li>
+                    </ul>
+                    <div class="service-ideal">
+                        <h4>Ideal For:</h4>
+                        <ul>
+                            <li>NPs and DNPs entering independent practice</li>
+                            <li>RNs pivoting to medical device or pharma sales</li>
+                            <li>CNOs and Directors seeking executive roles</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         TESTIMONIALS SECTION
+    ============================================ -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-award"></i>
+                    <span>Success Stories</span>
+                </div>
+                <h2 class="section-title">Real Nurses. Real Results. Real Pay Increases.</h2>
+                <p class="section-description">
+                    These are not generic career coaching wins. These are nurses just like you who stopped accepting staff pay and started earning what their clinical expertise is actually worth.
+                </p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">
+                        "I had been a staff ICU nurse for six years making $72,000. I knew travel nursing existed but had no idea how to actually get into it. Lillian rebuilt my resume, identified three agencies that were perfect for my CCRN background, and coached me through my first negotiation. I signed my first contract at $4,100 a week. That is more than double what I was making."
+                    </p>
+                    <div class="testimonial-results">
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>ICU Travel Contract: $4,100/week</span>
+                        </div>
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>More Than Double Previous Salary</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">MT</div>
+                        <div class="testimonial-author-info">
+                            <h4>Michelle T.</h4>
+                            <p>ICU Travel RN, Texas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">
+                        "After eight years in the ER I was completely burned out but had no idea what else I could do as a nurse. Lillian showed me the remote case management world I had never heard of. She repositioned my triage and assessment background, helped me target the right companies, and within 45 days I had a remote utilization review role paying $88,000 a year. I work from home now and I finally feel like a person again."
+                    </p>
+                    <div class="testimonial-results">
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Remote UR Role: $88,000/year</span>
+                        </div>
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>45 Days From Start to Signed Offer</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">DR</div>
+                        <div class="testimonial-author-info">
+                            <h4>Danielle R.</h4>
+                            <p>Remote Utilization Review RN, Ohio</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">
+                        "I completed my DNP in psychiatric mental health and was still applying to staff RN jobs because I did not know how to position myself as an NP. Lillian identified PMHNP roles I was not even aware of, helped me understand what I was worth, and coached me through negotiating my first NP offer. I accepted a position at $158,000. I almost left $40,000 on the table by accepting the first number they gave me."
+                    </p>
+                    <div class="testimonial-results">
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>PMHNP Role: $158,000/year</span>
+                        </div>
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Negotiated $40,000 Above Initial Offer</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">KM</div>
+                        <div class="testimonial-author-info">
+                            <h4>Keisha M.</h4>
+                            <p>PMHNP, Georgia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">
+                        "I had been traveling for two years through one agency but knew I was leaving money on the table. Lillian audited my pay package, showed me exactly where I was being underpaid, and helped me negotiate with a competing agency. My next L&D contract went from $2,800 a week to $3,900 a week with better stipends. That is over $57,000 more a year for the same work."
+                    </p>
+                    <div class="testimonial-results">
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>L&D Travel Pay: $2,800 to $3,900/week</span>
+                        </div>
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>$57,000+ Annual Pay Increase</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">JW</div>
+                        <div class="testimonial-author-info">
+                            <h4>Jasmine W.</h4>
+                            <p>L&D Travel RN, California</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">
+                        "Ten years of ICU nursing and I was making $85,000. I had no idea that my Impella and IABP experience made me one of the most competitive candidates in medical device sales. Lillian connected me with companies I never would have found on my own. I am now a clinical sales specialist at $130,000 base plus commission. Best career decision I ever made."
+                    </p>
+                    <div class="testimonial-results">
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Medical Device Sales: $130,000 base + commission</span>
+                        </div>
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Career Pivot Completed in 60 Days</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">MB</div>
+                        <div class="testimonial-author-info">
+                            <h4>Marcus B.</h4>
+                            <p>Clinical Sales Specialist, Florida</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">
+                        "I had a two year employment gap and thought no agency would touch me. Lillian helped me reframe my gap, position my behavioral health and corrections nursing background as a specialty strength, and target remote companies that were actively hiring. I have been in my remote case management role for six months now and I love every single day of it."
+                    </p>
+                    <div class="testimonial-results">
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Remote Case Management: $82,000/year</span>
+                        </div>
+                        <div class="testimonial-result-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Employment Gap Overcome Successfully</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">BA</div>
+                        <div class="testimonial-author-info">
+                            <h4>Brenda A.</h4>
+                            <p>Remote Case Management RN, Washington</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION
+    ============================================ -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-image-bg"></div>
+                    <img src="lillian.png" alt="Lillian D. Correia - Nurse Career Strategist" class="about-image-main">
+                    <div class="about-image-stats">
+                        <span class="about-image-stats-number">$65K+</span>
+                        <span class="about-image-stats-label">Average Annual Pay Increase</span>
+                    </div>
+                </div>
+
+                <div class="about-text" data-aos="fade-left">
+                    <div class="section-badge">
+                        <i class="fas fa-user-nurse"></i>
+                        <span>About Me</span>
+                    </div>
+                    <h2>Hi, I am Lillian D. Correia</h2>
+                    <p class="lead">Nurse Career Strategist. Reverse Recruiter. Your Dedicated Advocate in a Healthcare System That Was Built for Hospitals Not for You.</p>
+                    
+                    <p>I have watched incredibly skilled nurses struggle in ways that make absolutely no sense. Nurses with years of ICU experience earning half what a travel nurse earns for the same shift. DNP graduates applying to staff RN jobs because they do not know how to position their advanced credentials. Experienced RNs burned out and underpaid, convinced this is just what nursing is.</p>
+                    
+                    <p>It does not have to be. The healthcare market is desperate for skilled nurses right now. Travel nursing contracts are paying $3,000 to $5,000 per week. Remote case management roles are paying $80,000 to $110,000 annually from home. NPs and DNPs are earning $130,000 to $220,000 in practice. The opportunities are real and they are available right now to nurses who know how to access them.</p>
+                    
+                    <p><strong>Most nurses never find those opportunities because nobody showed them how.</strong> That is where I come in. I work exclusively with nurses not corporate professionals, not tech workers, not general job seekers. Nurses. I understand your clinical background, I know what the market will pay for your specialty, and I know how to position your experience so the right employers cannot ignore you.</p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-user-nurse"></i>
+                            </div>
+                            <div class="about-feature-text">
+                                <h4>Exclusively For Nurses</h4>
+                                <p>RNs, APRNs, Travel Nurses, and NPs only</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="about-feature-text">
+                                <h4>Market Intelligence</h4>
+                                <p>I know what your specialty pays right now</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                                                    <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="about-feature-text">
+                                <h4>Your Fiercest Advocate</h4>
+                                <p>I work FOR you not for hospitals or agencies</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <div class="about-feature-text">
+                                <h4>Real Results</h4>
+                                <p>Measurable pay increases, not just career advice</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         COMPARISON SECTION
+    ============================================ -->
+    <section class="section comparison-section" id="comparison">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-balance-scale"></i>
+                    <span>The Difference</span>
+                </div>
+                <h2 class="section-title">Traditional Nurse Job Search vs Nurse Reverse Recruiting</h2>
+                <p class="section-description">
+                    See why nurses who work with a reverse recruiter land offers faster, earn more, and make smarter career moves than nurses who search alone.
+                </p>
+            </div>
+
+            <div class="comparison-grid">
+                <div class="comparison-column traditional" data-aos="fade-right">
+                    <div class="comparison-header">
+                        <h3>Traditional Nurse Job Search</h3>
+                        <p>What most nurses do and why it keeps them stuck</p>
+                    </div>
+                    <div class="comparison-body">
+                        <div class="comparison-item">
+                            <i class="fas fa-times-circle"></i>
+                            <span>Apply to job boards and wait for callbacks that never come</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-times-circle"></i>
+                            <span>Accept whatever the first agency offers without negotiating</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-times-circle"></i>
+                            <span>Have no idea what your specialty pays in the current market</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-times-circle"></i>
+                            <span>Generic resume that looks like every other nurse's resume</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-times-circle"></i>
+                            <span>Miss the hidden job market for NP and remote roles entirely</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-times-circle"></i>
+                            <span>Undersell your certifications and specialty experience</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-times-circle"></i>
+                            <span>Stay in staff positions for years because change feels risky</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-times-circle"></i>
+                            <span>Average 6 to 12 months of frustrating, unproductive searching</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-column reverse" data-aos="fade-left">
+                    <div class="comparison-header">
+                        <h3>Nurse Reverse Recruiting</h3>
+                        <p>What nurses who work with me experience instead</p>
+                    </div>
+                    <div class="comparison-body">
+                        <div class="comparison-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expert partner who finds and vets opportunities for you</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Negotiate from knowledge and know your exact market value</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Access travel contracts and remote roles before they are posted</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Resume positioned specifically for your specialty and target role</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Direct introductions to agencies, NP practices, and hiring managers</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Your certifications and specialty depth work FOR you not against you</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Clear strategic path to higher pay with professional guidance</span>
+                        </div>
+                        <div class="comparison-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Average 30 to 60 days from start to signed offer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         WHO I SERVE SECTION
+    ============================================ -->
+    <section class="section who-section" id="who">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-users"></i>
+                    <span>Who I Help</span>
+                </div>
+                <h2 class="section-title">Which Nurse Are You?</h2>
+                <p class="section-description">
+                    I work with nurses at every stage and in every specialty. If you are a licensed RN or APRN who knows you are worth more than you are currently earning we should talk.
+                </p>
+            </div>
+
+            <div class="who-grid">
+                <div class="who-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="who-card-icon">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <h3>The Burned Out Staff RN Ready to Travel</h3>
+                    <p>You have two or more years of clinical experience in ICU, ER, L&D, Oncology, or another acute care specialty. You know travel nursing pays significantly more. You just need someone to show you how to actually get there.</p>
+                    <div class="who-card-result">Travel Contracts $2,500 to $5,000/week</div>
+                </div>
+
+                <div class="who-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="who-card-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>The NP or DNP Ready to Launch</h3>
+                    <p>You earned your advanced practice degree. Now you need to find the right role, negotiate your first NP salary confidently, and position your specialty for the highest paying opportunities in your market.</p>
+                    <div class="who-card-result">NP Roles $130,000 to $220,000/year</div>
+                </div>
+
+                <div class="who-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="who-card-icon">
+                        <i class="fas fa-laptop-medical"></i>
+                    </div>
+                    <h3>The Experienced RN Pivoting to Remote</h3>
+                    <p>You want to leave the bedside without leaving nursing. Remote case management, utilization review, prior authorization, and telehealth are all legitimate high paying paths and your clinical background makes you a competitive candidate.</p>
+                    <div class="who-card-result">Remote RN Roles $78,000 to $110,000/year</div>
+                </div>
+
+                <div class="who-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="who-card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>The Travel Nurse Leaving Money on the Table</h3>
+                    <p>You are already traveling but your pay package is not optimized. You accepted the first number the agency offered. You did not know how to negotiate stipends, bonuses, or competing offers. I fix that on your next contract.</p>
+                    <div class="who-card-result">Average $20,000 to $50,000 Pay Increase Per Year</div>
+                </div>
+
+                <div class="who-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="who-card-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>The ICU or ER Nurse Ready to Pivot to Medical Device Sales</h3>
+                    <p>Companies like Medtronic, Edwards, Boston Scientific, and Abbott specifically recruit bedside nurses for clinical sales roles. Your hands on experience with their devices is worth six figures in the right company. Most nurses never know this path exists.</p>
+                    <div class="who-card-result">Medical Device Sales $100,000 to $200,000/year</div>
+                </div>
+
+                <div class="who-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="who-card-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>The Nurse with an Employment Gap or Complex Situation</h3>
+                    <p>Whether you took time away for family, health, or personal reasons or you have certifications that lapsed or a career path that does not follow a straight line I know how to position your background in a way that gets you hired, not passed over.</p>
+                    <div class="who-card-result">Gaps and Complexity Turned Into Strengths</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FAQ SECTION
+    ============================================ -->
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-question-circle"></i>
+                    <span>Questions Answered</span>
+                </div>
+                <h2 class="section-title">Everything Nurses Ask Before Working With Me</h2>
+                <p class="section-description">
+                    Honest answers to the questions every nurse asks before deciding whether reverse recruiting is right for them.
+                </p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <button class="faq-question">
+                        <h3>What exactly does a nurse reverse recruiter do?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>I work FOR you instead of for hospitals or agencies. Traditional nursing recruiters are paid by employers to fill their open positions. My loyalty is to you. I study your clinical background, identify the highest paying opportunities that match your specialty, reach out to the right people on your behalf, and coach you through the entire process from resume to signed offer. Think of me as your personal career agent the same way professional athletes have agents negotiating on their behalf.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+                    <button class="faq-question">
+                        <h3>How is this different from signing up with a travel nursing agency?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Travel nursing agencies represent the hospitals not you. They earn their profit from the spread between what a hospital pays them and what they pay you. Their incentive is to fill shifts, not to maximize your pay. I represent only you. I help you identify which agencies are paying the best rates for your specialty, how to negotiate your pay package to its maximum value, and which contracts are worth taking versus which ones to decline.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <button class="faq-question">
+                        <h3>I have never traveled before. Can you still help me?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Absolutely. Most of my clients are making their first move into travel nursing, remote roles, or advanced practice positions. You do not need prior experience with these pathways that is exactly what I provide. If you have at least one to two years of clinical experience in an acute care specialty and a current RN license you are likely already qualified for travel nursing contracts. We start with where you are and build from there.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+                    <button class="faq-question">
+                        <h3>How long does it typically take to land an offer?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Most of my nursing clients receive their first qualified offer within 30 to 60 days of starting the process. Travel nursing contracts can move faster sometimes within two to three weeks once your profile is positioned correctly. NP and remote case management roles typically take 30 to 60 days. Medical device sales pivots can take 45 to 90 days depending on your specialty and target companies.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <button class="faq-question">
+                        <h3>My nursing license is in one state. Can I still travel or work remotely?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Many nurses do not realize that 40 plus states participate in the Nurse Licensure Compact meaning one license gives you the ability to work in multiple states. If your state is a Compact state you are already cleared to travel much more broadly than you think. Remote roles often accept nurses from any state. I help you understand exactly what your current license allows and what steps to take if additional licensure would open better opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="350">
+                    <button class="faq-question">
+                        <h3>What if I am currently employed? Will this be confidential?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Yes. Many of my clients are actively employed staff nurses who are exploring options confidentially. I never contact your current employer and all outreach on your behalf is handled with complete discretion. Being currently employed actually strengthens your position in most negotiations because you are not searching out of desperation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <button class="faq-question">
+                        <h3>I have a two year employment gap. Can you still help me?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Yes. Employment gaps are common in nursing for family, health, burnout, relocation, and many other reasons. The key is positioning the gap correctly and making sure every other element of your profile is as strong as possible. I have helped nurses with gaps of one to five years successfully land travel contracts and remote roles. What matters more than the gap is your clinical background, your license status, and your specialty experience.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="450">
+                    <button class="faq-question">
+                        <h3>How do I get started and what does it cost?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Getting started is simple. Send me a message through the contact form below or email me directly at lillian.reverserecruiter@gmail.com. Tell me your current nursing specialty, what you are looking for, and what your biggest challenge is right now. I will review your situation and recommend the package that makes the most sense for your goals. Packages start at $297 for resume and LinkedIn optimization and go up to $2,500 for the full NP and DNP premium placement service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CTA SECTION
+    ============================================ -->
+    <section class="section cta-section">
+        <div class="hero-gradient-orb hero-orb-1"></div>
+        <div class="hero-gradient-orb hero-orb-2"></div>
+
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Start Earning What You Actually Deserve?</h2>
+                <p>Your clinical skills are in demand right now. The only thing standing between you and a significantly higher income is strategy. Let me show you exactly what is possible for a nurse with your background.</p>
+                
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane btn-icon"></i>
+                        Get Started Now
+                    </a>
+                    <a href="#testimonials" class="btn btn-secondary btn-large">
+                        <i class="fas fa-star btn-icon"></i>
+                        See Success Stories
+                    </a>
+                </div>
+
+                <a href="mailto:lillian.reverserecruiter@gmail.com" class="cta-email-box">
+                    <i class="fas fa-envelope"></i>
+                    <div class="cta-email-text">
+                        <span class="cta-email-label">Email Me Directly</span>
+                        <span class="cta-email-address">lillian.reverserecruiter@gmail.com</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT SECTION
+    ============================================ -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Get In Touch</span>
+                </div>
+                <h2 class="section-title">Let Us Find Out What Your Nursing Background Is Really Worth</h2>
+                <p class="section-description">
+                    Send me a message and tell me about your nursing background and what you are looking for. I will review your situation personally and tell you exactly what I think is possible for you.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-info-content">
+                        <h3>Let Us Talk About Your Career</h3>
+                        <p>Whether you are ready to start immediately or just want to understand your options, I am here to help. There is no pressure and no hard sell. Just an honest conversation about what your clinical background is worth in the current market.</p>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Email Me</h4>
+                                <a href="mailto:lillian.reverserecruiter@gmail.com">lillian.reverserecruiter@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Response Time</h4>
+                                <p>I personally respond to every message within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-user-nurse"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Who I Work With</h4>
+                                <p>Licensed RNs and APRNs across all specialties nationwide</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h4>Connect With Me</h4>
+                            <div class="contact-social-links">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <h3>Tell Me About Your Nursing Background</h3>
+                    <p>The more detail you share, the more specific and useful my response will be. Fill out the form below and I will get back to you personally within 24 hours.</p>
+
+                    <form action="https://formspree.io/f/mlgpjwwr" method="POST" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name <span class="required">*</span></label>
+                                <input type="text" id="firstName" name="firstName" placeholder="Your first name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name <span class="required">*</span></label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="specialty">Your Nursing Specialty</label>
+                                <input type="text" id="specialty" name="specialty" placeholder="e.g. ICU, ER, L&D, Oncology">
+                            </div>
+                            <div class="form-group">
+                                <label for="experience">Years of Experience</label>
+                                <input type="text" id="experience" name="experience" placeholder="e.g. 5 years">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="status">Where are you in your nursing career? <span class="required">*</span></label>
+                            <select id="status" name="status" required>
+                                <option value="">Select an option</option>
+                                <option value="staff-want-travel">Currently staff nursing, want to explore travel nursing</option>
+                                <option value="traveling-maximize">Currently traveling, want to maximize my pay package</option>
+                                <option value="np-dnp">NP or DNP looking for advanced practice placement</option>
+                                <option value="remote">Exploring remote case management or utilization review</option>
+                                <option value="device-pharma">Interested in medical device or pharma sales pivot</option>
+                                <option value="gap">Have an employment gap and need help getting back</option>
+                                <option value="other">Other I will explain in my message</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="challenge">What is your biggest nursing career challenge right now? <span class="required">*</span></label>
+                            <textarea id="challenge" name="challenge" placeholder="Tell me about your current situation: your specialty, years of experience, what you are looking for, and what is holding you back from making the move you want to make..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="goals">What does your ideal next role look like?</label>
+                            <textarea id="goals" name="goals" placeholder="Travel nursing? Remote case management? NP or DNP placement? Medical device sales? Something else entirely? Tell me what your dream outcome looks like..."></textarea>
+                        </div>
+
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary btn-large">
+                                <i class="fas fa-paper-plane btn-icon"></i>
+                                Send My Information
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+    ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="lillian.png" alt="Lillian D. Correia">
+                    <h3>Lillian D. Correia</h3>
+                    <p>Nurse Career Strategist and Reverse Recruiter. Working exclusively with RNs and APRNs to land higher paying travel contracts, remote roles, and advanced practice positions.</p>
+                    <a href="mailto:lillian.reverserecruiter@gmail.com" class="footer-brand-email">
+                        <i class="fas fa-envelope"></i>
+                        lillian.reverserecruiter@gmail.com
+                    </a>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services and Pricing</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Lillian</a></li>
+                        <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Success Stories</a></li>
+                        <li><a href="#faq"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Me</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Nurse Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Resume and LinkedIn $297</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Interview Coaching $497</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Done For You Job Search $1,500</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> NP and DNP Premium $2,000+</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Free Consultation</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column footer-newsletter">
+                    <h4>Nurse Career Tips</h4>
+                    <p>Get weekly insights on travel nursing pay, remote RN opportunities, and nurse salary negotiation strategies. No fluff. Just actionable intelligence for nurses who want to earn more.</p>
+                    <form class="footer-newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lillian D. Correia | Nurse Career Strategist and Reverse Recruiter | Serving RNs and APRNs Nationwide</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         BACK TO TOP BUTTON
+    ============================================ -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ============================================
+         JAVASCRIPT
+    ============================================ -->
+    <!-- AOS Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        // ============================================
+        // PRELOADER
+        // ============================================
+        window.addEventListener('load', function() {
+            const preloader = document.getElementById('preloader');
+            setTimeout(function() {
+                preloader.classList.add('hidden');
+                document.body.classList.remove('no-scroll');
+            }, 1500);
+        });
+
+        // Add no-scroll class initially
+        document.body.classList.add('no-scroll');
+
+        // ============================================
+        // INITIALIZE AOS ANIMATIONS
+        // ============================================
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 50,
+            delay: 0
+        });
+
+        // ============================================
+        // NAVBAR SCROLL EFFECT
+        // ============================================
+        const navbar = document.getElementById('navbar');
+        let lastScrollTop = 0;
+
+        window.addEventListener('scroll', function() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (scrollTop > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            
+            lastScrollTop = scrollTop;
+        });
+
+        // ============================================
+        // MOBILE MENU TOGGLE
+        // ============================================
+        const navbarToggle = document.getElementById('navbarToggle');
+        const navbarMenu = document.getElementById('navbarMenu');
+
+        navbarToggle.addEventListener('click', function() {
+            this.classList.toggle('active');
+            navbarMenu.classList.toggle('active');
+            document.body.classList.toggle('no-scroll');
+        });
+
+        // Close mobile menu when clicking a link
+        const navLinks = document.querySelectorAll('.navbar-link, .navbar-cta');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navbarToggle.classList.remove('active');
+                navbarMenu.classList.remove('active');
+                document.body.classList.remove('no-scroll');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!navbarMenu.contains(event.target) && !navbarToggle.contains(event.target)) {
+                navbarToggle.classList.remove('active');
+                navbarMenu.classList.remove('active');
+                document.body.classList.remove('no-scroll');
+            }
+        });
+
+        // ============================================
+        // FAQ ACCORDION
+        // ============================================
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            const answer = item.querySelector('.faq-answer');
+            const content = item.querySelector('.faq-answer-content');
+
+            question.addEventListener('click', function() {
+                const isActive = item.classList.contains('active');
+                
+                // Close all other items
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                        otherItem.querySelector('.faq-answer').style.maxHeight = '0';
+                    }
+                });
+
+                // Toggle current item
+                if (isActive) {
+                    item.classList.remove('active');
+                    answer.style.maxHeight = '0';
+                } else {
+                    item.classList.add('active');
+                    answer.style.maxHeight = content.scrollHeight + 40 + 'px';
+                }
+            });
+        });
+
+        // ============================================
+        // BACK TO TOP BUTTON
+        // ============================================
+        const backToTop = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 500) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        backToTop.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // ============================================
+        // SMOOTH SCROLL FOR ANCHOR LINKS
+        // ============================================
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const headerOffset = 80;
+                    const elementPosition = target.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // ============================================
+        // ANIMATED COUNTER FOR STATS
+        // ============================================
+        function animateCounter(element, target, duration, suffix = '') {
+            let start = 0;
+            const increment = target / (duration / 16);
+            
+            function updateCounter() {
+                start += increment;
+                if (start < target) {
+                    element.textContent = Math.floor(start) + suffix;
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    element.textContent = target + suffix;
+                }
+            }
+            
+            updateCounter();
+        }
+
+        // Intersection Observer for counter animation
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumbers = entry.target.querySelectorAll('.hero-stat-number');
+                    // Stats are text-based for this design, so we skip counter animation
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        const heroStats = document.querySelector('.hero-stats');
+        if (heroStats) {
+            statsObserver.observe(heroStats);
+        }
+
+        // ============================================
+        // PARALLAX EFFECT FOR HERO ORBS
+        // ============================================
+        document.addEventListener('mousemove', function(e) {
+            const orbs = document.querySelectorAll('.hero-gradient-orb');
+            const mouseX = e.clientX / window.innerWidth;
+            const mouseY = e.clientY / window.innerHeight;
+
+            orbs.forEach((orb, index) => {
+                const speed = (index + 1) * 20;
+                const x = (mouseX - 0.5) * speed;
+                const y = (mouseY - 0.5) * speed;
+                orb.style.transform = `translate(${x}px, ${y}px)`;
+            });
+        });
+
+        // ============================================
+        // FORM SUBMISSION FEEDBACK
+        // ============================================
+        const contactForm = document.querySelector('.contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                const submitBtn = this.querySelector('button[type="submit"]');
+                const originalText = submitBtn.innerHTML;
+                
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin btn-icon"></i> Sending...';
+                submitBtn.disabled = true;
+
+                // Re-enable after form submission (Formspree handles the redirect)
+                setTimeout(() => {
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                }, 3000);
+            });
+        }
+
+        // ============================================
+        // TYPING EFFECT FOR HERO (Optional Enhancement)
+        // ============================================
+        function typeWriter(element, text, speed = 50) {
+            let i = 0;
+            element.textContent = '';
+            
+            function type() {
+                if (i < text.length) {
+                    element.textContent += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                }
+            }
+            
+            type();
+        }
+
+        // ============================================
+        // IMAGE LAZY LOADING
+        // ============================================
+        if ('loading' in HTMLImageElement.prototype) {
+            const images = document.querySelectorAll('img[loading="lazy"]');
+            images.forEach(img => {
+                img.src = img.dataset.src;
+            });
+        } else {
+            // Fallback for browsers that don't support lazy loading
+            const script = document.createElement('script');
+            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js';
+            document.body.appendChild(script);
+        }
+
+        // ============================================
+        // SCROLL REVEAL FOR ELEMENTS
+        // ============================================
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // ============================================
+        // ACTIVE NAV LINK ON SCROLL
+        // ============================================
+        const sections = document.querySelectorAll('section[id]');
+        
+        function setActiveNavLink() {
+            const scrollY = window.pageYOffset;
+            
+            sections.forEach(section => {
+                const sectionHeight = section.offsetHeight;
+                const sectionTop = section.offsetTop - 150;
+                const sectionId = section.getAttribute('id');
+                const navLink = document.querySelector(`.navbar-link[href="#${sectionId}"]`);
+                
+                if (navLink) {
+                    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                        navLink.classList.add('active');
+                    } else {
+                        navLink.classList.remove('active');
+                    }
+                }
+            });
+        }
+
+        window.addEventListener('scroll', setActiveNavLink);
+
+        // ============================================
+        // PREVENT FORM RESUBMISSION
+        // ============================================
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+        }
+
+        // ============================================
+        // CONSOLE MESSAGE
+        // ============================================
+        console.log('%c Lillian D. Correia - Nurse Career Strategist ', 'background: linear-gradient(135deg, #0d9488, #0f766e); color: white; font-size: 16px; padding: 10px 20px; border-radius: 5px; font-weight: bold;');
+        console.log('%c Website built with care for nurses who deserve better pay ', 'color: #f59e0b; font-size: 12px;');
+    </script>
+
+</body>
+</html>
